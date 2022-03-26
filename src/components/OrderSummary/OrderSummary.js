@@ -7,7 +7,7 @@ const OrderSummary = (props) => {
     const { name } = props.product;
     return (
         <div className='orderSummary'>
-            <p>#{name}</p>
+            <p>{name}</p>
             <FontAwesomeIcon icon={faRemove}></FontAwesomeIcon>
         </div>
     );

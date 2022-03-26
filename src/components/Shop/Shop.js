@@ -20,6 +20,12 @@ const Shop = () => {
             setCart(newCart);
         }
 
+        const generateRandomNumber = (cart) => {
+            const randomChoice = Math.floor(Math.random());
+            setRandomChoice(randomChoice);
+            return ({randomChoice});
+        }
+
     return (
         <div className='shop-container'>
             <div className="products-container">
@@ -39,7 +45,9 @@ const Shop = () => {
                         product={product}
                         ></OrderSummary>)
                 }
-                
+                <p> is the best for you.</p>
+                <button onClick={generateRandomNumber}> CHOOSE 1 FOR ME</button> <br />
+                <button> Choose Again</button>
             </div>
         </div>
     );
