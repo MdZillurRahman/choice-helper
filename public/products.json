@@ -1,0 +1,75 @@
+[
+  {
+    "id": "1001",
+    "category": "Men's Sneaker",
+    "name": "Black Bag",
+    "seller": "Addidas",
+    "price": 400,
+    "img": "/images/Black Bag.jpg"
+  },
+  {
+    "id": "1002",
+    "category": "Men's Sneaker",
+    "name": "Classy Black Bag",
+    "seller": "Addidas",
+    "price": 320,
+    "img": "/images/Classy Black Bag.jpg"
+  },
+  {
+    "id": "1003",
+    "category": "Men's Sneaker",
+    "name": "Easy To Carry Bag",
+    "seller": "Addidas",
+    "price": 520,
+    "img": "/images/Easy To Carry Bag.jpg"
+  },
+  {
+    "id": "1004",
+    "category": "Men's Sneaker",
+    "name": "Enough Space Bag",
+    "seller": "Addidas",
+    "price": 350,
+    "img": "/images/Enough Space Bag.jpg"
+  },
+  {
+    "id": "1005",
+    "category": "Men's Sneaker",
+    "name": "Mountain Bag",
+    "seller": "Addidas",
+    "price": 450,
+    "img": "/images/Mountain Bag.jpg"
+  },
+  {
+    "id": "1006",
+    "category": "Men's Sneaker",
+    "name": "Simple Fashion Bag",
+    "seller": "Addidas",
+    "price": 430,
+    "img": "/images/Simple Fashion Bag.jpg"
+  },
+  {
+    "id": "1007",
+    "category": "Men's Sneaker",
+    "name": "Small Bag",
+    "seller": "Addidas",
+    "price": 425,
+    "img": "/images/Small Bag.jpg"
+  },
+  {
+    "id": "1008",
+    "category": "Men's Sneaker",
+    "name": "Travelling Bag",
+    "seller": "Addidas",
+    "price": 455,
+    "img": "/images/Travelling Bag.jpg"
+  },
+  {
+    "id": "1009",
+    "category": "Men's Sneaker",
+    "name": "Urna Fashion Bag",
+    "seller": "Addidas",
+    "price": 485,
+    "img": "/images/Urna Fashion Bag.jpg"
+  }
+]
+  
