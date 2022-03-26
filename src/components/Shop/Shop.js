@@ -6,6 +6,7 @@ import './Shop.css';
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
+    const [setRandomChoice] = useState([]);
 
     useEffect( () =>
         {
@@ -20,8 +21,8 @@ const Shop = () => {
             setCart(newCart);
         }
 
-        const generateRandomNumber = (cart) => {
-            const randomChoice = Math.floor(Math.random());
+        const generateRandomNumber = () => {
+            const randomChoice = Math.floor(Math.random(cart.id));
             setRandomChoice(randomChoice);
             return ({randomChoice});
         }
