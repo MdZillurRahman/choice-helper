@@ -4,8 +4,9 @@ import { faRemove } from '@fortawesome/free-solid-svg-icons';
 import './OrderSummary.css';
 
 const OrderSummary = (props) => {
-    const { name } = props.product;
+    const { name } = props.cart;
     return (
+        
         <div className='orderSummary'>
             <p>{name}</p>
             <FontAwesomeIcon icon={faRemove}></FontAwesomeIcon>

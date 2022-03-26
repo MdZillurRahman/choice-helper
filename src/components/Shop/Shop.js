@@ -1,3 +1,4 @@
+import { parse } from '@fortawesome/fontawesome-svg-core';
 import React, { useEffect, useState } from 'react';
 import OrderSummary from '../OrderSummary/OrderSummary';
 import Product from '../Product/Product';
@@ -6,7 +7,6 @@ import './Shop.css';
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
-    const [setRandomChoice] = useState([]);
 
     useEffect( () =>
         {
@@ -21,10 +21,10 @@ const Shop = () => {
             setCart(newCart);
         }
 
-        const generateRandomNumber = () => {
-            const randomChoice = Math.floor(Math.random(cart.id));
-            setRandomChoice(randomChoice);
-            return ({randomChoice});
+        const chooseOne = () => {
+           const num = Math.floor(Math.random()*cart.length);
+           console.log(num);
+           alert(cart[num].name);
         }
 
     return (
@@ -42,12 +42,13 @@ const Shop = () => {
                 <h4>Order Summary</h4>
                 <p>Selected Items: {cart.length}</p>
                 {
-                    cart.map(product=><OrderSummary 
-                        product={product}
+                    cart.map(cart=><OrderSummary 
+                        key={cart.id}
+                        cart={cart}
                         ></OrderSummary>)
                 }
-                <p> is the best for you.</p>
-                <button onClick={generateRandomNumber}> CHOOSE 1 FOR ME</button> <br />
+
+                <button onClick={chooseOne}> CHOOSE 1 FOR ME</button> <br />
                 <button> Choose Again</button>
             </div>
         </div>
