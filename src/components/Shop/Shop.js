@@ -50,7 +50,7 @@ const Shop = () => {
                         cart={cart}
                         ></OrderSummary>)
                 }
-
+                
                 <button onClick={chooseOne}> CHOOSE 1 FOR ME</button>
                 <br />
                 <button onClick={chooseAgain}> Choose Again</button>
