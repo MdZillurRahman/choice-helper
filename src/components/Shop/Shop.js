@@ -22,20 +22,12 @@ const Shop = () => {
 
         const chooseOne = () => {
            const num = Math.floor(Math.random()*cart.length);
-           <Best num = {num}></Best>
+           alert (cart[num].name);
         }
 
         const chooseAgain = () =>{
             const again = [];
             setCart(again);
-        }
-
-        const Best = (props) => {
-            return (
-                <div>
-                    <p>{cart[props].name}</p>
-                </div>
-            )
         }
 
     return (

@@ -45,13 +45,13 @@
 }
 @media screen and (max-width:600px) {
     .product img{
-        width: 170px;
-        height: 170px;
+        width: 150px;
+        height: 150px;
         border-radius: 8px;
         margin: 7px;
     }
     .product{
-        width: 180px;
+        width: 160px;
         height: 410px;
         border: 1px solid #95A0A7;
         border-radius: 8px;
