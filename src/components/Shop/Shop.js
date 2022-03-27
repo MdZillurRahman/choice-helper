@@ -23,8 +23,12 @@ const Shop = () => {
 
         const chooseOne = () => {
            const num = Math.floor(Math.random()*cart.length);
-           console.log(num);
            alert(cart[num].name);
+        }
+
+        const chooseAgain = () =>{
+            const again = [];
+            setCart(again);
         }
 
     return (
@@ -48,8 +52,9 @@ const Shop = () => {
                         ></OrderSummary>)
                 }
 
-                <button onClick={chooseOne}> CHOOSE 1 FOR ME</button> <br />
-                <button> Choose Again</button>
+                <button onClick={chooseOne}> CHOOSE 1 FOR ME</button>
+                <br />
+                <button onClick={chooseAgain}> Choose Again</button>
             </div>
         </div>
     );
