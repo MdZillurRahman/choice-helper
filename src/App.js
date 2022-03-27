@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <Shop></Shop>
-      <div className='Questions'>
+      <div className='questions'>
       <h1>1. How React Works?</h1>
       <p>One of the popular JavaScript library is React. React maintains a tree for us which it is able to do efficient diff computations on the nodes. It creates user interfaces in a predictable and efficient way using declarative code.components are reusable UIs which allow you to split the app into separate blocks that act independently of each other. Compnents accept an arbitrary input with deta and return a React element to declare what should appear on screen. They can interact with other components via props to create a complex UI.</p>
       <h1>2. Props vs State.</h1>

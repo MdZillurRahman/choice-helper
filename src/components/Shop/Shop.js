@@ -1,4 +1,3 @@
-import { parse } from '@fortawesome/fontawesome-svg-core';
 import React, { useEffect, useState } from 'react';
 import OrderSummary from '../OrderSummary/OrderSummary';
 import Product from '../Product/Product';
@@ -23,7 +22,7 @@ const Shop = () => {
 
         const chooseOne = () => {
            const num = Math.floor(Math.random()*cart.length);
-           alert(cart[num].name);
+           alert (cart[num].name);
         }
 
         const chooseAgain = () =>{
